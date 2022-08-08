@@ -8,5 +8,6 @@ public class MyFirstTest {
     @Test
     void myFirstTest(){
         Assertions.assertTrue(5!=2);
+        Assertions.assertFalse(5==2);
     }
 }
